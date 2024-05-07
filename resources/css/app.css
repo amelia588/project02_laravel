@@ -1,0 +1,59 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif; /* Define una tipografía */
+    background-color: #f8f9fa; /* Color de fondo ligero para todo el cuerpo */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #007bff; /* Cambia el color de fondo de la barra de navegación */
+    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Sombra sutil para la barra de navegación */
+}
+
+.nav-link {
+    color: #ffffff; /* Cambia el color de los enlaces para que contrasten con el fondo */
+}
+
+.nav-link:hover {
+    color: #cccccc; /* Color al pasar el mouse sobre los enlaces */
+}
+
+/* Estilos para el contenido principal */
+.main {
+    padding: 20px; /* Espaciado interno para el contenido principal */
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    border-radius: 8px; /* Bordes redondeados para el contenedor del contenido */
+    margin-top: 20px; /* Margen superior para separar de la barra de navegación */
+}
+
+/* Estilos para el footer */
+footer {
+    padding: 10px 0; /* Espaciado vertical para el pie de página */
+    background-color: #007bff; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color del texto del pie de página */
+    text-align: center; /* Alinea el texto al centro */
+    position: fixed; /* Opcional: Fija el pie de página en la parte inferior de la vista */
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para los botones */
+.btn-primary {
+    background-color: #0056b3; /* Modifica el color de fondo de los botones primarios */
+    border-color: #004085; /* Modifica el color del borde de los botones primarios */
+}
+
+.btn-primary:hover {
+    background-color: #003b70; /* Color de fondo al pasar el mouse sobre botones primarios */
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px; /* Reduce el espaciado en dispositivos móviles */
+    }
+    .main {
+        padding: 10px; /* Reduce el espaciado en dispositivos móviles */
+        margin-top: 10px;
+    }
+}
