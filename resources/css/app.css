@@ -1,59 +1,43 @@
-/* Estilos generales */
-body {
-    font-family: 'Arial', sans-serif; /* Define una tipografía */
-    background-color:  #ee5a87 ; /* Color de fondo ligero para todo el cuerpo */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Estilos para la barra de navegación */
 .navbar {
-    background-color: #007bff; /* Cambia el color de fondo de la barra de navegación */
-    box-shadow: 0 2px 4px rgba(0,0,0,.1); /* Sombra sutil para la barra de navegación */
+    padding: 0.5rem 1rem;
 }
 
-.nav-link {
-    color: #ffffff; /* Cambia el color de los enlaces para que contrasten con el fondo */
+.navbar .navbar-brand {
+    color: #fff;
 }
 
-.nav-link:hover {
-    color: #cccccc; /* Color al pasar el mouse sobre los enlaces */
+.navbar-nav .nav-link {
+    color: #ddd;
 }
 
-/* Estilos para el contenido principal */
-.main {
-    padding: 20px; /* Espaciado interno para el contenido principal */
-    background-color: #ffffff; /* Fondo blanco para el contenido */
-    border-radius: 8px; /* Bordes redondeados para el contenedor del contenido */
-    margin-top: 20px; /* Margen superior para separar de la barra de navegación */
+.navbar-nav .nav-link:hover {
+    color: #fff;
 }
 
-/* Estilos para el footer */
-footer {
-    padding: 10px 0; /* Espaciado vertical para el pie de página */
-    background-color: #007bff; /* Color de fondo del pie de página */
-    color: #ffffff; /* Color del texto del pie de página */
-    text-align: center; /* Alinea el texto al centro */
-    position: fixed; /* Opcional: Fija el pie de página en la parte inferior de la vista */
-    bottom: 0;
-    width: 100%;
+.btn-outline-primary {
+    color: #ddd;
+    border-color: #ddd;
 }
 
-/* Estilos para los botones */
-.btn-primary {
-    background-color: #0056b3; /* Modifica el color de fondo de los botones primarios */
-    border-color: #004085; /* Modifica el color del borde de los botones primarios */
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #0062cc;
+    border-color: #005cbf;
 }
 
-.btn-primary:hover {
-    background-color: #003b70; /* Color de fondo al pasar el mouse sobre botones primarios */
+.btn-outline-success {
+    color: #ddd;
+    border-color: #28a745;
 }
 
-/* Media queries para responsividad */
-@media (max-width: 768px) {
-    .navbar {
-        padding: 10px; /* Reduce el espaciado en dispositivos móviles */
-    }
-    .main {
-        padding: 10px; /* Reduce el espaciado en dispositivos móviles */
-        margin-top: 10px;
-    }
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #218838;
 }
