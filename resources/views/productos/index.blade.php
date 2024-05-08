@@ -18,7 +18,7 @@
                 @foreach ($productos as $producto)
             <div class="col-md-4 mb-3">
                 <div class="card h-100 shadow">
-                    <img src="{{ asset('storage/' . $producto['imagen']) }}" alt="{{ $producto['nombre'] }}" class="card-img-top">
+                <img src="{{ asset('storage/' . $producto['imagen']) }}" alt="{{ $producto['nombre'] }}" class="card-img-top">
                     <div class="card-body">
                         <h5 class="card-title">{{ $producto['nombre'] }}</h5>
                         <p class="card-text">${{ number_format($producto['precio'], 2) }}</p>
